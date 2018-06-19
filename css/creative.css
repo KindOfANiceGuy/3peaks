@@ -80,6 +80,26 @@ img::-moz-selection {
   background: transparent;
 }
 
+.photo-frame {
+  border: 3px solid white;
+  border-radius: 5px;
+  max-width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.75);
+}
+
+.photo-book {
+  margin-top: 10px;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.75);
+  max-height: 350px;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;

@@ -27,11 +27,23 @@
   </head>
 
   <body id="page-top">
+      <!--<div class="container-fluid">-->
+          <!--<div class="row">-->
+              <!--<div class="bg-primary p-lg-5 col-12" style="min-height: 100vh;">-->
+                  <!--<h1 class="text-center text-white" style="font-size: 72px;" >Currently under Construction</h1>-->
+                  <!--<div class="d-flex justify-content-center">-->
+                      <!--<img src="img/3peaks_thick.png" class="mt-lg-5"/>-->
+                  <!--</div>-->
+                  <!--<h1 class="text-center text-white mt-lg-5" style="font-size: 56px;" >Check back soon!</h1>-->
+              <!--</div>-->
+          <!--</div>-->
+      <!--</div>-->
 
-    <!-- Navigation -->
+     <!--Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">3 Peaks <img src="img/3peaks_thick.png" style="max-height: 40px;" /></a>
+        <a id="brand-white" class="navbar-brand js-scroll-trigger" href="#page-top">3 Peaks <img src="img/3peaks_thick.png" style="max-height: 40px;" /></a>
+          <a id="brand-blue" class="navbar-brand js-scroll-trigger d-none" href="#page-top">3 Peaks <img src="img/3peaks_thick_blue.png" style="max-height: 40px;" /></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,7 +55,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
-
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#story">Story</a>
+              </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
@@ -76,18 +90,21 @@
                 <div class="col-lg-8 mx-auto text-center">
                     <h2 class="section-heading text-white">Who We Are</h2>
                     <hr class="light my-4">
-                    <!--<p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>-->
-                    <!--<a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>-->
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <h3 class="section-heading text-white">Ryan Higbee</h3>
-                            <h5 class="text-faded mb-4">Founder of 3 Peaks Institute, Ryan Higbee was actually it's first student! He realized a simple, yet often overlooked truth - You are not your emotions! Ryan has applied this truth to the various tools he learned on his journey of ascension, and is ready to share them with the world!</h5>
+                            <h5 class="text-faded mb-4">Founder of 3 Peaks Institute, Ryan Higbee was actually it's first student! He realized a simple, yet often overlooked truth - You are not your emotions! As a certified Foot Zone therapist, life coach, success mentor, and inspirational speaker, he has made the primary objective of 3 Peaks Institute to help individuals and groups achieve their highest potential. He lives with his wife, Karen, and their children in the Rockies of Northern Utah.</h5>
                         </div>
                         <div class="col-12 col-lg-6">
                             <h3 class="section-heading text-white">Karen Higbee</h3>
                             <h5 class="text-faded mb-4">Associate Director and Reiki Master, Karen Higbee has long been a supportive force in what is now 3 Peaks Institute. Not content to let her partner, Ryan, make this journey alone, she quickly learned she possessed gifts of healing and positive affirmation. As a partner, co-founder, and mother, she has affirmed her mission to help others heal and live their greatest lives!</h5>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <img src="img/facing-cropped.jpg" class="photo-frame">
                 </div>
             </div>
         </div>
@@ -143,21 +160,24 @@
     </section>
 
     <section class="bg-dark text-white">
-      <div class="container text-center">
+      <div class="container text-center" style="margin: -55px auto;">
         <h2 class="mb-4">Classes Starting Soon!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">View Schedule</a>
+        <a class="btn btn-light btn-xl sr-button"  href="#" data-toggle="modal" data-target="#calendar">View Schedule</a>
+          <a class="btn btn-light btn-xl sr-button"  href="#" data-toggle="modal" data-target="#prices">View Prices</a>
       </div>
     </section>
 
-    <section class="bg-warning text-white">
+    <section id="story" class="bg-warning text-white">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h2>The Story of A Journey</h2>
+                <div class="col-lg-6 mx-auto text-center">
+                    <h2>A Story on the Path to Success</h2>
                     <hr class="light my-4">
-                    <h5 class="text-faded mb-4">Ryan's first published novel, titled "Golden Copper", tells the story of a young man struggling to make it in the real world. Faced with another failed semester at school, his life is forever changed when he meets a mysterious mentor. He must choose whether to continue on struggling or to ascend to a higher plane of thought as his very idea of the real world is challenged.</h5>
+                                                   <h6>Austin Davis was a struggling college student who yearned for money and success. He had no idea that losing a bet and hauling rocks all summer would make him wealthier than he ever imagined.</h6>
+                            <h6>In collaboration with contemporary, Rex Rian, Golden Copper is a self-help novel about two young men and their search for financial success. How about you? Do you live life deliberately? Do you consider yourself successful? Time passes either way, why not make the most of your life!</h6>
+                            <img src="img/book-cover.jpg" class="photo-book">
                     <div>
-                        <a class="btn btn-outline-dark btn-xl mt-3" href="#" ><i class="fa fa-amazon mr-2" aria-hidden="true"></i>Buy Now</a>
+                        <a class="btn btn-outline-dark btn-xl mt-3" href="#" ><i class="fa fa-amazon mr-2" aria-hidden="true"></i>Coming Soon</a>
                     </div>
                 </div>
             </div>
@@ -174,18 +194,47 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 ml-auto text-center">
+          <div class="col-lg-2 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>435-512-0319</p>
+            <p>435-512-0391</p>
           </div>
-          <div class="col-lg-4 mr-auto text-center">
+          <div class="col-lg-2 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">rkhig1@juno.com</a>
+              <a href="mailto:mygoldencopper@gmail.com">mygoldencopper@gmail.com</a>
             </p>
           </div>
         </div>
+          <!--<div class="row">-->
+              <!--<div class="col-lg-4 mx-auto text-center">-->
+                  <!--<a href="#"><i class="fa fa-facebook fa-3x m-3" aria-hidden="true"></i></a>-->
+                  <!--<a href="#"><i class="fa fa-instagram fa-3x m-3" aria-hidden="true"></i></a>-->
+                  <!--<a href="#"><i class="fa fa-youtube-play fa-3x m-3" aria-hidden="true"></i></a>-->
+              <!--</div>-->
+
+          <!--</div>-->
+
       </div>
+    </section>
+
+    <section id="footer" class="border-top bg-light" style="padding-top:128px; padding-bottom: 50px">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <div>
+                    <p style="font-size:11px">Financial Disclaimer: Any information contained/distributed in 3 Peaks Institute meetings, sessions, classes, web materials, digital or print materials, is purely for informational purposes. It should not be considered financial advice. 3 Peaks Institute and the employees/partners thereof are not financial advisers, nor is any claim, guarantee, or promise made pertaining to the results that may be obtained from any of the aforementioned materials/discussions. You should consult with a financial adviser to determine what may be best for your individual needs. 3 Peaks Institute disclaims, to the maximum extent permitted by law, any and all liability in the event that this information prove to be inaccurate/ineffective. Your use of the specified information/materials is at your own risk.
+                    </p>
+                    </div>
+                    <div>
+                        <p style="font-size:11px">
+                        Medical Disclaimer: Any information contained/distributed in 3 Peaks Institute meetings, sessions, classes, web materials, digital or print materials, is purely for informational purposes. 3 Peaks Institute makes no representation and assumes no responsibility for the accuracy of this information, nor does it guarantee or promise as to the efficacy of any course of action or methodology described/practiced. We do not prescribe medication. We make no claim as to any cure, treatment, or diagnosis. Clients of 3 Peaks Institute are encouraged to seek advice of licensed medical professionals in any and all cases. Clients should never delay seeking medical treatment or disregard the advice of a medical doctor/professional because of information, discussions, practices, or methodologies obtained from 3 Peaks Institute or it's partners/subsidiaries. 3 Peaks Institute's products, and products endorsed by 3 Peaks Institute are not a substitute for medical or mental health treatment. 3 Peaks Institute disclaims, to the maximum amount allowed by law, any liability pertaining to the use of the information it provides or products it sells/recommends. Your use of the specified information/materials/products obtained from 3 Peaks Institute is at your own risk.
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p><b>Site Design: Form 26 Studios</b></p>
+                        <p><i class="fa fa-copyright" aria-hidden="true"></i> 3 Peaks Institute 2018 </p>
+                    </div>
+        </div>
     </section>
 
     <div id="mentoring" class="modal fade" tabindex="-1" role="dialog">
@@ -229,27 +278,106 @@
     </div>
 
     <div id="education" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header bg-primary">
-                    <h4 class="modal-title text-white">Classes and Certifications</h4>
-                </div>
-                <div class="modal-body">
-                    <h5 class="text-center">Healing Certifications</h5>
-                    <p>Want to become a Master in healing therapies? Our founders are certified instructors in Reiki and Foot Zone therapies. Learn the skills both for personal and professional applications.</p>
-                    <hr>
-                    <h5 class="text-center">Feminine Energy Courses</h5>
-                    <p>The role of women in the world is changing quickly. Karen, our co-founder, leads you on a journey to re-connect with your feminine energy. Harness the power of your natural femininity and use it to excel in your ever-changing role.</p>
-                    <hr>
-                    <h5 class="text-center">Ascendant Energy Courses</h5>
-                    <p>This class is directed to more advanced students. Learn the secrets of your body, embrace your higher power, and ascend to new levels of existence.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <div class="modal-header bg-primary">
+                      <h4 class="modal-title text-white">Classes and Certifications</h4>
+                  </div>
+                  <div class="modal-body">
+                      <h5 class="text-center">Healing Certifications</h5>
+                      <p>Want to become a Master in healing therapies? Our founders are certified instructors in Reiki and Foot Zone therapies. Learn the skills both for personal and professional applications.</p>
+                      <hr>
+                      <h5 class="text-center">Feminine Energy Courses</h5>
+                      <p>The role of women in the world is changing quickly. Karen, our co-founder, leads you on a journey to re-connect with your feminine energy. Harness the power of your natural femininity and use it to excel in your ever-changing role.</p>
+                      <hr>
+                      <h5 class="text-center">Ascendant Energy Courses</h5>
+                      <p>This class is directed to more advanced students. Learn the secrets of your body, embrace your higher power, and ascend to new levels of existence.</p>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div id="calendar" class="modal fade" tabindex="-1"  role="dialog">
+          <div class="modal-dialog" role="document" style="min-width:830px">
+              <div class="modal-content">
+                  <div class="modal-header bg-primary">
+                      <h4 class="modal-title text-white">Class Schedule</h4>
+                  </div>
+                  <div class="modal-body">
+                      <iframe src="https://calendar.google.com/calendar/embed?src=mygoldencopper%40gmail.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="prices" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <div class="modal-header bg-primary">
+                      <h4 class="modal-title text-white">Prices</h4>
+                  </div>
+                  <div class="modal-body">
+                      <h5 class="text-center">Mentoring</h5>
+                      <hr />
+                      <div class="d-flex justify-content-between">
+                          <h6><b>Success Mentoring Program</b></h6>
+                          <h6><b>$2000 / month</b></h6>
+                      </div>
+                      <p style="font-size:11px">Our flagship program, this course includes 1 in-person appointment and 3 phone appointments per month. This is the full 3 Peaks experience!</p>
+                      <div class="d-flex justify-content-between">
+                          <h6><b>Individual Mentoring - 1 Hr Phone</b></h6>
+                          <h6><b>$100</b></h6>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                          <h6><b>Individual Mentoring - 2 Hr In-Person</b></h6>
+                          <h6><b>$200</b></h6>
+                      </div>
+                      <p style="font-size:11px">These 1 on 1 appointments can be tailored to suit you. Contact to schedule a time. These appointments are scheduled on a per-appointment basis.</p>
+                      <div class="d-flex justify-content-between">
+                          <h6><b>Feminine Mentoring</b></h6>
+                          <h6><b>Call for info</b></h6>
+                      </div>
+                      <p style="font-size:11px">Karen is currently taking on new clients who wish to experience their femininity at a new level. Call for pricing and scheduling.</p>
+                      <h5 class="text-center">Healing</h5>
+                      <hr />
+                      <div class="d-flex justify-content-between">
+                      <h6><b>Foot Zone Session</b></h6>
+                      <h6><b>$50</b></h6>
+                  </div>
+                      <div class="d-flex justify-content-between">
+                          <h6><b>Reiki Session</b></h6>
+                          <h6><b>$75</b></h6>
+                      </div>
+                      <p style="font-size:11px">Let Karen, our Master Healer, help you rejuvenate your body and clear your mind. Call for scheduling.</p>
+                      <h5 class="text-center">Education</h5>
+                      <hr />
+                      <div class="d-flex justify-content-between">
+                          <h6><b>Certified Reiki Master</b></h6>
+                          <h6><b>$1300</b></h6>
+                      </div>
+                      <p style="font-size:11px">Become a certified Reiki Master and turn your gifts into a career! Course is payable in installments, call to book your seat at the next class.</p>
+                      <div class="d-flex justify-content-between">
+                          <h6><b>Certified Foot Zone Therapist</b></h6>
+                          <h6><b>Call for info</b></h6>
+                      </div>
+                      <p style="font-size:11px">Become a certified Foot Zone Therapist! Course is payable in installments, call to book your seat at the next class.</p>
+                      <div class="d-flex justify-content-between">
+                          <h6><b>Advanced and Ascendant Energy Courses</b></h6>
+                          <h6><b>Call for info</b></h6>
+                      </div>
+                      <p style="font-size:11px">Reserved for advanced learners, this course is taught in parts throughout the year. Course is payable in installments, call to book your seat at the next class.</p>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
