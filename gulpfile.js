@@ -17,7 +17,7 @@ var banner = ['/*!\n',
 ].join('');
 
 // Copy third party libraries from /node_modules into /vendor
-gulp.task('vendor', function() {
+gulp.task('vendor', function(done) {
 
   // Bootstrap
   gulp.src([
@@ -61,7 +61,8 @@ gulp.task('vendor', function() {
       './node_modules/scrollreveal/dist/*.js'
     ])
     .pipe(gulp.dest('./vendor/scrollreveal'))
-
+    
+  done();
 });
 
 // Compile SCSS
